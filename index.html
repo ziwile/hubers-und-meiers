@@ -3,16 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Spezifität CSS</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style media="screen">
+      #lisa{
+        background: black;
+      }
+    </style>
   </head>
   <body>
     <div class="huber">
-      <div id="lisa"></div>
+      <div id="lisa" style="background: red;"></div>
       <div id="georg"></div>
-      <div id="susi"></div>
+      <div id="susi" class="schulze"></div>
     </div>
 
     <div class="meier">
-      <div id="sepp"></div>
+      <div id="sepp" class="schulze"></div>
       <div id="luis"></div>
       <div id="brigitte"></div>
     </div>
