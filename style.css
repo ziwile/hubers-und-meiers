@@ -4,30 +4,10 @@ div{
   border: 1px solid black;
 }
 
-div.huber{
-  background: yellow;
-}
-
 .huber{
   background: red;
 }
 
 .meier{
   background: blue;
-}
-
-#lisa{
-  background: green;
-}
-
-#sepp{
-  background: black;
-}
-
-.schulze, #sepp.schulze{
-  background: violet;
-}
-
-div.huber{
-  background: brown;
 }
