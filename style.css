@@ -11,3 +11,15 @@ div{
 .meier{
   background: blue;
 }
+
+#lisa{
+  background: black;
+}
+
+.huber #lisa{
+  background: green;
+}
+
+.huber div#lisa{
+  background: pink!important;
+}
