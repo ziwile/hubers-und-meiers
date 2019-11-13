@@ -8,3 +8,38 @@ div{
   border: 1px solid black;
   margin: 5px;
 }
+.huber{
+  background: red;
+}
+
+.meier{
+  background: blue;
+}
+#lisa{
+  background: yellow;
+}
+#luis{
+  background: green;
+}
+/*#georg, #susi{
+  background: pink;
+} sitas irgi tinka */
+
+.huber div{
+  background: pink;
+}
+
+#susi.meier{
+  background: blue;
+}
+/*labai svarbu sitie trys elementai*/
+#brigitte{
+  background: grey;
+}
+
+.meier #brigitte{
+  background: orange;
+}
+.meier div#brigitte{
+  background: lightblue;
+}
